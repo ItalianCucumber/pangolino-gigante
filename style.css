@@ -12,7 +12,45 @@
   --darkest-orange: #f34c2f;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--dark);
-  color: var(--light)
+  color: var(--light);
+  font-family: Raleway;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-weight: 1000;
+  font-family: Inter;
+  text-align: center;
+  font-size: 7rem;
+  letter-spacing: 4px;
+  color: var(--darkest-orange);
+}
+
+p {
+  font-family: Raleway;
+  font-size: 2rem;
+}
+
+.gp {
+  padding-top: 11%;
+  padding-bottom: 20%;
+  margin: -10em -0.5em;
+  background-color: var(--dark);
+  background-image: url("./img/pangolin0.jpg");
+  background-size: cover;
+  background-blend-mode: soft-light;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#descgp {
+  margin-left: 15%;
+  margin-right: 10%;
+  text-align: center;
 }
