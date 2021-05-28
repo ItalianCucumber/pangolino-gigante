@@ -1,0 +1,13 @@
+/* import fonts */
+:root {
+  /* colour scheme */
+  --light: #dedede;
+  --dark: #13181f;
+  --orange: #e28d24;
+  --dark-orange: #dd6727;
+  --darkest-orange: #f34c2f;
+}
+
+body {
+  background-color: var(--dark);
+}
