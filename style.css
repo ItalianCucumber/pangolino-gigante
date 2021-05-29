@@ -7,9 +7,12 @@
   /* colour scheme */
   --light: #dedede;
   --dark: #13181f;
+  --darker: #07090c;
+  --gray: #68788e;
   --orange: #e28d24;
   --dark-orange: #dd6727;
   --darkest-orange: #f34c2f;
+  --red: #f32f39;
 }
 
 html {
@@ -17,7 +20,7 @@ html {
 }
 
 body {
-  background-color: var(--dark);
+  background-color: var(--darker);
   color: var(--light);
   font-family: Raleway;
   overflow-x: hidden;
