@@ -30,9 +30,18 @@ h1 {
   font-weight: 1000;
   font-family: Inter;
   text-align: center;
-  font-size: 7rem;
+  font-size: 9rem;
   letter-spacing: 4px;
   color: var(--darkest-orange);
+}
+
+h2 {
+  font-weight: 600;
+  font-family: Manrope;
+  text-align: center;
+  font-size: 6rem;
+  letter-spacing: 3px;
+  color: var(--light);
 }
 
 p {
@@ -40,10 +49,43 @@ p {
   font-size: 2rem;
 }
 
+.didyouknow {
+  padding: 3em;
+  background-color: var(--gray);
+  width: 950px;
+  margin-top: 10em;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 35px;
+}
+
+.didyouknow>h1 {
+  position: relative;
+  margin-top: -20%;
+  margin-left: -10%;
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--light);
+  letter-spacing: normal;
+}
+
+.didyouknow>p {
+  position: relative;
+  margin-top: 2%;
+  margin-left: 24.5%;
+  margin-right: 4%;
+  color: var(--light);
+}
+
+.didyouknow img {
+  width: 175px;
+  height: 175px;
+}
+
 .gp {
   padding-top: 11%;
   padding-bottom: 20%;
-  margin: -10em -0.5em;
+  margin: -10em -0.5em 0em;
   background-color: var(--dark);
   background-image: url("./img/pangolin0.jpg");
   background-size: cover;
@@ -52,8 +94,59 @@ p {
   background-attachment: fixed;
 }
 
+.past {
+  opacity: 0%;
+  margin-bottom: 20%;
+}
+
 #descgp {
   margin-left: 15%;
   margin-right: 10%;
+  text-align: center;
+}
+
+#descpa {
+  margin-left: 15%;
+  margin-right: 10%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.65;
+}
+
+#descpr {
+  margin-left: 15%;
+  margin-right: 10%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.65;
+}
+
+#mina {
+  font-weight: 300;
+  font-size: 11rem;
+  font-family: Manrope;
+  color: var(--light)
+}
+
+#endangered {
+  font-family: Manrope;
+  position: static;
+  display: inline-block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.35em 0.4em;
+  background-color: var(--red);
+  border-radius: 400px;
+  font-weight: 900;
+  font-size: 9rem;
+}
+
+#minaccia {
+  font-style: italic;
+  font-size: 4rem;
+  font-weight: 200;
+  margin-top: -4%;
+  padding-bottom: 2em;
   text-align: center;
 }
