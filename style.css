@@ -9,10 +9,21 @@
   --dark: #13181f;
   --darker: #07090c;
   --gray: #68788e;
+  --select: #d19a6a;
   --orange: #e28d24;
   --dark-orange: #dd6727;
   --darkest-orange: #f34c2f;
   --red: #f32f39;
+}
+
+::-moz-selection {
+  background-color: var(--select);
+  color: var(--light);
+}
+
+::selection {
+  background-color: var(--select);
+  color: var(--light);
 }
 
 html {
