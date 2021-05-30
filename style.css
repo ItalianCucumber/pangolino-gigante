@@ -221,3 +221,35 @@ h4 {
   padding-bottom: 2em;
   text-align: center;
 }
+
+.button {
+  border: none;
+  color: var(--light);
+  font-family: inherit;
+  font-size: 1.25rem;
+  padding: 0.8em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.donate {
+  background-color: #07090c44;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: 2px solid var(--darkest-orange);
+}
+
+a {
+  color: var(--light);
+  text-decoration: none;
+}
+
+.donate:hover {
+  background-color: var(--darkest-orange)
+}
+}
