@@ -113,8 +113,23 @@ p {
 }
 
 .past {
-  opacity: 0%;
+  opacity: 100%;
   margin-bottom: 20%;
+}
+
+.present {
+  opacity: 10%;
+  margin-bottom: 20%;
+}
+
+.future {
+  opacity: 100%;
+  margin-bottom: 20%;
+}
+
+.salvation {
+  opacity: 100%;
+  margin-bottom: 15%;
 }
 
 #descgp {
