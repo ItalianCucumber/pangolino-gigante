@@ -60,14 +60,6 @@ p {
   font-size: 2rem;
 }
 
-.didyouknow {
-  padding: 3em;
-  background-color: var(--gray);
-  width: 950px;
-  margin-top: 10em;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 35px;
 #circle {
   padding: 0.65em 0.65em;
   border-radius: 100px;
@@ -78,26 +70,12 @@ p {
   top: 40%
 }
 
-.didyouknow>h1 {
-  position: relative;
-  margin-top: -20%;
-  margin-left: -10%;
-  font-size: 3rem;
-  font-weight: 800;
-  color: var(--light);
-  letter-spacing: normal;
 #mapgp {
   top: 40.25%;
   font-weight: 300;
   font-size: 1rem;
 }
 
-.didyouknow>p {
-  position: relative;
-  margin-top: 2%;
-  margin-left: 24.5%;
-  margin-right: 4%;
-  color: var(--light);
 #mappa {
   top: 44.1%;
   font-weight: 300;
@@ -116,9 +94,6 @@ p {
   font-size: 1rem;
 }
 
-.didyouknow img {
-  width: 175px;
-  height: 175px;
 #mapsa {
   top: 60%;
   font-weight: 300;
